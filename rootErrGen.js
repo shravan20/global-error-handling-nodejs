@@ -9,7 +9,7 @@ const errGen = () => {
     catch (error) {
 
         console.log('Root Error Causer:',error.message);
-        return error
+        return error;
         
         }
 
@@ -17,4 +17,4 @@ const errGen = () => {
 
 module.exports = {
     errGen
-}
+}  
