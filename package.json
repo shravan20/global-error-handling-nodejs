@@ -1,0 +1,14 @@
+{
+  "name": "centralerrorpoc",
+  "version": "1.0.0",
+  "description": "Central Error Handler at Global Level PoC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shravan K B",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
