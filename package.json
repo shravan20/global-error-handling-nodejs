@@ -2,13 +2,19 @@
   "name": "centralerrorpoc",
   "version": "1.0.0",
   "description": "Central Error Handler at Global Level PoC",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
   },
   "author": "Shravan K B",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.1",
     "nodemon": "^2.0.2"
   }
 }
